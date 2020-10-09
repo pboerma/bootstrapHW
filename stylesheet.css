@@ -1,0 +1,16 @@
+.navbar-brand {
+    background-color: green ;
+}
+
+.compact {
+    display:flex;
+    flex-direction: column;
+    background-color: honeydew;
+    padding: 10px;
+    box-shadow: 5px 25px 20px grey;
+    width: 20%;
+    border: 1px solid red;
+    margin-top: 20px;
+
+}
+

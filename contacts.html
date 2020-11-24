@@ -11,8 +11,8 @@
 </head>
 <body>
   
-  <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light">
-    <span class="navbar-brand mb-1 h1">Pieter</span>
+  <nav class="navbar navbar-default navbar-expand-lg navbar-light" style="background-color: grey;"">
+    <span class="navbar-brand mb-1 h1">Pieter Boerma </span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -34,14 +34,12 @@
  
       <div class="compact">
         <h2> Contact</h2>
-          <form action="index.html">
-      
-          <input style="margin-bottom: 5px" value="name" for ="fname"></input>
-          <input style="margin-bottom: 5px"value="email" for="lname"></input>
-          <textarea> Message </textarea>
-          
-          <input type="submit" value="Submit">
-          </form>
+        <form>      
+          <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+          <input name="email" type="text" class="feedback-input" placeholder="Email" />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT"/>
+        </form>
       </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
